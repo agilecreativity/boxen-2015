@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: boxen/puppet-autoconf
+  specs:
+    autoconf (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.10.4)
@@ -7,6 +12,11 @@ GITHUBTARBALL
   remote: boxen/puppet-brewcask
   specs:
     brewcask (0.0.6)
+
+GITHUBTARBALL
+  remote: boxen/puppet-cmake
+  specs:
+    cmake (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
@@ -42,6 +52,11 @@ GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
     hub (1.4.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-macvim
+  specs:
+    macvim (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -84,6 +99,11 @@ GITHUBTARBALL
     ruby (8.5.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-skype
+  specs:
+    skype (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -94,9 +114,19 @@ GITHUBTARBALL
     sysctl (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-tmux
+  specs:
+    tmux (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.2.1)
+
+GITHUBTARBALL
+  remote: foca/puppet-inconsolata
+  specs:
+    inconsolata (0.0.1)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -114,8 +144,10 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
+  autoconf (= 1.0.0)
   boxen (= 3.10.4)
   brewcask (= 0.0.6)
+  cmake (= 1.0.1)
   dnsmasq (= 2.0.1)
   foreman (= 1.2.0)
   gcc (= 2.2.1)
@@ -123,7 +155,9 @@ DEPENDENCIES
   go (= 2.1.0)
   homebrew (= 1.12.0)
   hub (= 1.4.1)
+  inconsolata (= 0.0.1)
   inifile (= 1.1.1)
+  macvim (= 1.0.0)
   module_data (= 0.0.3)
   nginx (= 1.4.5)
   nodejs (= 4.0.1)
@@ -133,8 +167,10 @@ DEPENDENCIES
   redis (= 3.1.0)
   repository (= 2.4.1)
   ruby (= 8.5.2)
+  skype (= 1.1.0)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
   sysctl (= 1.0.1)
+  tmux (= 1.0.2)
   xquartz (= 1.2.1)
 

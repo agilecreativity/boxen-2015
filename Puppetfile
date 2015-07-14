@@ -63,5 +63,16 @@ github "xquartz",     "1.2.1"
 # github "elasticsearch", "2.7.2"
 # github "mysql",         "2.0.1"
 # github "postgresql",  "3.0.3"
+
+## The essentials {{{
+github "inconsolata", "0.0.1", :repo => "foca/puppet-inconsolata"
+## }}}
+## Add more packages here {{{
+github "cmake",       "1.0.1"
+github "autoconf",    "1.0.0"
 github "redis",       "3.1.0"
 github "sysctl",      "1.0.1"
+github "tmux",        "1.0.2"
+github "macvim",      "1.0.0"
+github "skype",       "1.1.0"
+## }}}

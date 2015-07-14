@@ -1,36 +1,27 @@
 class people::agilecreativity::homebrew {
   ## build essentials
-  #include cmake
-  #include autoconf
-  #include sysctl
+  include cmake
+  include autoconf
+  include sysctl
+  include inconsolata
 
   $env = {
     packages => {
       brew   => [
         'ag',
-        #'ant',
         'asciinema',
         'awscli',
-        #'boost',
-        #'boost-build',
-        #'boot2docker',
         'colordiff',
         'coreutils',
         'ctags-exuberant',
-        #'docker',
         'dos2unix',
-        #'ghostscript',
         'gist',
         'git-extras',
         'git-flow',
         'git-tig',
-        #'gradle221',
-        #'groovy',
         'htop',
         'htop-osx',
-        #'maven',
         'md5sha1sum',
-        #'memcached',
         'midnight-commander',
         'nmap',
         'readline',
@@ -42,7 +33,17 @@ class people::agilecreativity::homebrew {
         'trash',
         'tree',
         'unrar',
-        'wget'
+        'wget',
+        #'ant',
+        #'boost',
+        #'boost-build',
+        #'boot2docker',
+        #'docker',
+        #'ghostscript',
+        #'gradle221',
+        #'groovy',
+        #'maven',
+        #'memcached',
       ]
     }
   }
