@@ -80,7 +80,23 @@ node default {
     [
       'ack',
       'findutils',
-      'gnu-tar'
+      'gnu-tar',
+      ## Added more packages here {{{
+      'coreutils',
+      'dos2unix',
+      'htop-osx',
+      'tree',
+      'midnight-commander',
+      'renameutils',
+      'rename',
+      'colordiff',
+      'trash',
+      'readline',
+      'git-flow',
+      'ctags-exuberant',
+      'ag',
+      'unrar'
+      ## }}}
     ]:
   }
 
