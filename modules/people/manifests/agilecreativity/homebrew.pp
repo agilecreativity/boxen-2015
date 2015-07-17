@@ -34,12 +34,12 @@ class people::agilecreativity::homebrew {
         'tree',
         'unrar',
         'wget',
+        'ghostscript'
         #'ant',
         #'boost',
         #'boost-build',
         #'boot2docker',
         #'docker',
-        #'ghostscript',
         #'gradle221',
         #'groovy',
         #'maven',

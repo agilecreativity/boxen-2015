@@ -75,4 +75,5 @@ github "sysctl",      "1.0.1"
 github "tmux",        "1.0.2"
 github "macvim",      "1.0.0"
 github "skype",       "1.1.0"
+github "java",        "1.8.1"
 ## }}}
