@@ -9,6 +9,7 @@ class people::agilecreativity::homebrew {
     packages => {
       brew   => [
         'ag',
+        'ant',
         'asciinema',
         'awscli',
         'colordiff',
@@ -19,8 +20,10 @@ class people::agilecreativity::homebrew {
         'git-extras',
         'git-flow',
         'git-tig',
+        'gradle221',
         'htop',
         'htop-osx',
+        'maven',
         'md5sha1sum',
         'midnight-commander',
         'nmap',
@@ -33,16 +36,13 @@ class people::agilecreativity::homebrew {
         'trash',
         'tree',
         'unrar',
-        'wget',
-        'ghostscript'
-        #'ant',
+        'wget'
+        #'ghostscript' #=> TODO: please install this manually!
         #'boost',
         #'boost-build',
         #'boot2docker',
         #'docker',
-        #'gradle221',
         #'groovy',
-        #'maven',
         #'memcached',
       ]
     }
