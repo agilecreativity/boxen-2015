@@ -23,6 +23,7 @@ class people::agilecreativity::homebrew {
         'gradle221',
         'htop',
         'htop-osx',
+        'hugo',
         'maven',
         'md5sha1sum',
         'midnight-commander',
