@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: boxen/puppet-android
+  specs:
+    android (1.5.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-autoconf
   specs:
     autoconf (1.0.0)
@@ -149,6 +154,7 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
+  android (= 1.5.1)
   autoconf (= 1.0.0)
   boxen (= 3.10.4)
   brewcask (= 0.0.6)

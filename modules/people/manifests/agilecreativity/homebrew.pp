@@ -21,6 +21,7 @@ class people::agilecreativity::homebrew {
         'git-flow',
         'git-tig',
         'gradle221',
+        'hg',
         'htop',
         'htop-osx',
         'hugo',

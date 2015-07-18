@@ -6,7 +6,7 @@ class people::agilecreativity {
   class { 'people::agilecreativity::essentials': }
   class { 'people::agilecreativity::apps': }
   class { 'people::agilecreativity::jvm': }
-  # class { 'people::agilecreativity::android': }
+  class { 'people::agilecreativity::android': }
   # class { 'people::agilecreativity::dotfiles': }
   # class { 'people::agilecreativity::files': }
   # include 'pdftk'
