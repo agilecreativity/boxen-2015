@@ -29,6 +29,7 @@ class people::agilecreativity::homebrew {
         'md5sha1sum',
         'midnight-commander',
         'nmap',
+        'pt', # the platinum searcher
         'readline',
         'redis',
         'rename',

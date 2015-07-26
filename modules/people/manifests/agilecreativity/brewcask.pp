@@ -5,7 +5,9 @@ class people::agilecreativity::brewcask {
       brew   => [
         # '4k-youtube-to-mp3',
         # '4k-video-downloader',
-        'grandperspective'
+        'grandperspective',
+        'vlc',
+        'vlcstreamer'
         #'ffmpegx'
         ## Note: this will install version 3.0.x, need to comment out for older version of mongo
         # 'mongodb',
