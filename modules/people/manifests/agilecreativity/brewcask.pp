@@ -6,13 +6,12 @@ class people::agilecreativity::brewcask {
         'calibre',
         'grandperspective',
         'kindle',
-        'kindle-previewer',
         'vlc',
         'vlcstreamer',
-        'ffmpegx'
-        ## Note: this will install version 3.0.x, need to comment out for older version of mongo
-        # 'mongodb',
-        # 'robomongo'
+        'ffmpegx',
+        'genymotion',
+        'mongodb',
+        'robomongo'
       ]
     }
   }

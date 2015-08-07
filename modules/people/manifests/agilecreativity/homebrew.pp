@@ -12,6 +12,9 @@ class people::agilecreativity::homebrew {
         'ant',
         'asciinema',
         'awscli',
+        'boot-clj',
+        'clojure',
+        'clojurescript',
         'colordiff',
         'coreutils',
         'ctags-exuberant',
@@ -21,10 +24,10 @@ class people::agilecreativity::homebrew {
         'git-flow',
         'git-tig',
         'gradle221',
-        'hg',
         'htop',
         'htop-osx',
         'hugo',
+        'leiningen',
         'maven',
         'md5sha1sum',
         'midnight-commander',
@@ -34,12 +37,14 @@ class people::agilecreativity::homebrew {
         'redis',
         'rename',
         'renameutils',
+        'rlwrap', # for Clojure development
         'sqlite',
         'ssh-copy-id',
         'trash',
         'tree',
         'unrar',
-        'wget'
+        'wget',
+        'xctool'
         #'ghostscript' #=> TODO: please install this manually!
         #'boost',
         #'boost-build',
