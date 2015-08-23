@@ -11,6 +11,7 @@ class people::agilecreativity::homebrew {
         'ag',
         'ant',
         'asciinema',
+        'aspell',
         'awscli',
         'boot-clj',
         'clojure',
