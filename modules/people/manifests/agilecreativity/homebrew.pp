@@ -14,6 +14,7 @@ class people::agilecreativity::homebrew {
         'aspell',
         'awscli',
         'boot-clj',
+        'chruby',
         'clojure',
         'clojurescript',
         'colordiff',
@@ -45,6 +46,8 @@ class people::agilecreativity::homebrew {
         'tree',
         'unrar',
         'wget',
+        'wine',
+        'winetricks',
         'xctool'
         #'ghostscript' #=> TODO: please install this manually!
         #'boost',

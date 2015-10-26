@@ -36,8 +36,12 @@ class people::agilecreativity::apps {
     }
   }
 
-  # include qtcreator
-  # include phantomjs
+  ## include qtcreator
+  include phantomjs
+
+  ## Install PhantomJS version 1.9.0
+  phantomjs::version { '1.9.0': }
+
   # class { 'vagrant': }
   # include packer
   # include handbrake
