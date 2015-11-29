@@ -21,6 +21,7 @@ class people::agilecreativity::homebrew {
         'coreutils',
         'ctags-exuberant',
         'dos2unix',
+        'fuzzy-find', # Good fuzzy finder
         'gist',
         'git-extras',
         'git-flow',
