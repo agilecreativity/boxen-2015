@@ -30,6 +30,7 @@ class people::agilecreativity::homebrew {
         'htop',
         'htop-osx',
         'hugo',
+        'jsonpp',
         'leiningen',
         'maven',
         'md5sha1sum',
